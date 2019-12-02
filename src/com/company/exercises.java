@@ -1,9 +1,9 @@
 package com.company;
-
+//Mahathi Athreya 3B
 public class exercises {
 
     public static void main(String[] args) {
-        /* System.out.println(addOdds(1));
+        System.out.println(addOdds(1));
         System.out.println(addOdds(7));
         System.out.println(addOdds(12));
         System.out.println(addOdds(23));
@@ -19,7 +19,9 @@ public class exercises {
 
         sillyNumbers();
 
-        sillyNumbers2(); */
+        sillyNumbers2();
+
+        dollarsAndStars();
     }
 
     public static int addOdds(int n) {
@@ -101,6 +103,37 @@ public class exercises {
      */
 
     public static void dollarsAndStars() {
+        for (int i=0; i<=6; i++) {
+            for (int j=1; j<=i*2; j++) {
+                System.out.print("*");
+            }
+            for (int k=0; k<=7-i; k++) {
+                System.out.print("$");
+            }
+            for (int l=0; l<=14-(2*i); l++) {
+                System.out.print("*");
+            }
+            for (int k=0; k<=7-i; k++) {
+                System.out.print("$");
+            }
+            for (int j=1; j<=i*2; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+
+        }
 
     }
+    /*
+    Result for dollarsAndStars:
+    $$$$$$$$***************$$$$$$$$
+    **$$$$$$$*************$$$$$$$**
+    ****$$$$$$***********$$$$$$****
+    ******$$$$$*********$$$$$******
+    ********$$$$*******$$$$********
+    **********$$$*****$$$**********
+    ************$$***$$************
+     */
+
 }
