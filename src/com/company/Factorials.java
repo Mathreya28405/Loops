@@ -3,7 +3,7 @@ package com.company;
 public class Factorials {
 
     public static void main(String[] args) {
-        /* System.out.println(calcFactorial(5));
+        System.out.println(calcFactorial(5));
         System.out.println(calcFactorial(6));
         System.out.println(calcFactorial(10));
 
@@ -15,7 +15,7 @@ public class Factorials {
         System.out.println(calcEX(2));
         System.out.println(calcEX(3));
         System.out.println(calcEX(4));
-        System.out.println(calcEX(5)); */
+        System.out.println(calcEX(5)); 
 
         System.out.printf("e is %2.3f \n", calcEX(1));
         System.out.printf("e is %2.3f \n", calcEX(2));
