@@ -1,0 +1,161 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        //numbers1();
+        //numbers2();
+        //numbers3();
+        //numbers4();
+        //numbers5();
+        //numbers6();
+        numbers7();
+        numbers8();
+     }
+     
+     public static int numbers1() {
+         for (int i=0; i<5; i++) {
+             for (int j=1; j<=5-i; j++)  {
+                 System.out.print(j);
+             }
+             System.out.println();
+         }
+         return 0;
+     }
+     
+     /*
+     Result:
+    12345
+    1234
+    123
+    12
+    1
+     */
+     
+     public static int numbers2() {
+         for (int i=0; i<5; i++) {
+             for (int j=5-i; j>0; j--) {
+                 System.out.print(j);
+             }
+             System.out.println();
+         }
+         return 0;
+     }
+     
+     /*
+    54321
+    4321
+    321
+    21
+    1
+     */
+     
+    public static int numbers3() {
+        for (int i=1; i<=5; i++) {
+            for (int j=0; j<i; j++) {
+                System.out.print(i);
+            }
+            System.out.println();
+        }
+        return 0;
+    }
+    
+    /*
+    1
+    22
+    333
+    4444
+    55555
+    */
+    
+    public static int numbers4() {
+        for (int i=5; i>=1; i--) {
+            for (int j=i; j>=1; j-- ) {
+                System.out.print(i);
+            }
+            System.out.println();
+        }
+        return 0;
+    }
+    
+    /*
+    55555
+    4444
+    333
+    22
+    1
+    */
+    
+    public static int numbers5() {
+        for (int i=1; i<=5; i++) {
+            for (int j=1; j<=i; j++) {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+        return 0;
+    }
+    
+    /*
+    1
+    12
+    123
+    1234
+    12345
+    */
+    
+    public static int numbers6() {
+        for (int i=1; i<=5; i++) {
+            for (int j=1; j<=6-i; j++) {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+        return 0;
+    }
+    
+    /*
+    12345
+    1234
+    123
+    12
+    1
+    */
+    
+    public static int numbers7() {
+        for (int i=5; i>=1; i--) {
+            for (int j=i; j<=1; j--) {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+        return 0;
+    }
+    
+    /*
+    54321
+    4321
+    321
+    21
+    1
+     */
+
+    public static int numbers8() {
+        for (int i=5; i>=1; i--) {
+            for (int j=5; j>=i; j--) {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+        return 0;
+    }
+
+    /*
+    5
+    54
+    543
+    5432
+    54321
+     */
+     
+     
+    
+}
